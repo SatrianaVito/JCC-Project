@@ -1,0 +1,1292 @@
+.container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.events-page {
+  width: 100%;
+  height: 3942px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.footer {
+  top: 3663px;
+  left: 0px;
+  width: 100%;
+  height: 279px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(0, 0, 0, 0.8600000143051147);
+}
+.footer-group1 {
+  top: 20.17919921875px;
+  left: 50px;
+  width: 352px;
+  height: 235.82080078125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.footer-paragraph {
+  color: rgba(255, 255, 255, 1);
+  width: 352px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.footer-group2 {
+  top: 20.179244995117188px;
+  left: 519.95751953125px;
+  width: 135.6298828125px;
+  height: 199.16036987304688px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.footer-quick-links-text {
+  top: 0px;
+  left: 0px;
+  width: 135.6298828125px;
+  height: 31.58490562438965px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.quick-links {
+  color: rgba(255, 255, 255, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.footer-quick-links-content {
+  top: 39.481178283691406px;
+  left: 0.04248046875px;
+  width: 102.04244995117188px;
+  height: 159.6792449951172px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.home-text {
+  color: rgba(255, 255, 255, 1);
+  width: 59px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.about-us-text {
+  top: 100.01884460449219px;
+  left: 0.042449951171875px;
+  color: rgba(255, 255, 255, 1);
+  width: 91px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.events-text {
+  top: 33.339599609375px;
+  color: rgba(255, 255, 255, 1);
+  width: 61px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+.price-list-text {
+  top: 66.6792221069336px;
+  left: 0.042449951171875px;
+  color: rgba(255, 255, 255, 1);
+  width: 98px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.contact-us-text {
+  top: 133.3584747314453px;
+  left: 0.042449951171875px;
+  color: rgba(255, 255, 255, 1);
+  width: 102px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.footer-group3 {
+  top: 20.179244995117188px;
+  left: 807px;
+  width: 115.24959564208984px;
+  height: 165.8207550048828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.footer-follow-us-text {
+  top: 0px;
+  left: 0.30902099609375px;
+  width: 114.9405746459961px;
+  height: 31.58490562438965px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.follow-us {
+  color: rgba(255, 255, 255, 1);
+  width: 115px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.footer-follow-us-content {
+  top: 39.481178283691406px;
+  left: 0px;
+  width: 102.297119140625px;
+  height: 126.3396224975586px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.instagram-text {
+  color: rgba(255, 255, 255, 1);
+  width: 102px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+.youtube-text {
+  top: 100.01884460449219px;
+  color: rgba(255, 255, 255, 1);
+  width: 85px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+.facebook-text {
+  top: 33.339599609375px;
+  color: rgba(255, 255, 255, 1);
+  width: 95px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+.linkedin-text {
+  top: 66.6792221069336px;
+  color: rgba(255, 255, 255, 1);
+  width: 84px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer-group4 {
+  top: 20.179244995117188px;
+  left: 1094.660400390625px;
+  width: 310.6791687011719px;
+  height: 144.76414489746094px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.footer-location-text {
+  color: rgba(255, 255, 255, 1);
+  width: 102px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.footer-location-content {
+  top: 39.481178283691406px;
+  left: 0.339599609375px;
+  width: 310.3395690917969px;
+  height: 105.28302001953125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.location-description {
+  color: rgba(255, 255, 255, 1);
+  width: 310px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.copyright {
+  top: 237px;
+  left: 673px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.deep-and-extreme {
+  top: 3060px;
+  left: 172px;
+  width: 1097px;
+  height: 492px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.deep-and-extreme-more-info {
+  top: 429px;
+  left: 108px;
+  width: 155px;
+  height: 63px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.deep-and-extreme-more-info-text {
+  top: 13px;
+  left: 30px;
+  color: rgba(217, 154, 62, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  border: 1px solid rgba(217, 154, 62, 1);
+  padding: 15px;
+  cursor: pointer;
+}
+.deep-and-extreme-info {
+  left: 428px;
+  color: rgba(0, 0, 0, 1);
+  width: 669px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.deep-and-extreme-description {
+  top: 130.415771484375px;
+  left: 428px;
+  color: rgba(0, 0, 0, 1);
+  width: 595px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.deep-and-extreme-info2 {
+  top: 182px;
+  left: 428px;
+  color: rgba(0, 0, 0, 1);
+  width: 495px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.deep-and-extreme-time {
+  font-weight: 700;
+}
+.deep-and-extreme-time2 {
+  font-weight: 400;
+}
+.deep-and-extreme-open {
+  font-weight: 700;
+}
+.deep-and-extreme-open2 {
+  font-weight: 400;
+}
+.deep-and-extreme-organizer {
+  font-weight: 700;
+}
+.deep-and-extreme-organizer2 {
+  font-weight: 400;
+}
+.deep-and-extreme-poster {
+  top: 0px;
+  left: 0px;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+}
+.indonesia-comic-con {
+  top: 2396px;
+  left: 172px;
+  width: 1097px;
+  height: 591px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.indonesia-comic-con-more-info {
+  top: 528px;
+  left: 108px;
+  width: 155px;
+  height: 63px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.indonesia-comic-con-more-info-text {
+  top: 13px;
+  left: 30px;
+  color: rgba(217, 154, 62, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  border: 1px solid rgba(217, 154, 62, 1);
+  padding: 15px;
+  cursor: pointer;
+}
+.indonesia-comic-con-info {
+  left: 428px;
+  color: rgba(0, 0, 0, 1);
+  width: 669px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.indonesia-comic-con-description {
+  top: 130.415771484375px;
+  left: 428px;
+  color: rgba(0, 0, 0, 1);
+  width: 595px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.indonesia-comic-con-info2 {
+  top: 311px;
+  left: 428px;
+  color: rgba(0, 0, 0, 1);
+  width: 430px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.indonesia-comic-con-time {
+  font-weight: 700;
+}
+.indonesia-comic-con-time2 {
+  font-weight: 400;
+}
+.indonesia-comic-con-open {
+  font-weight: 700;
+}
+.indonesia-comic-con-open2 {
+  font-weight: 400;
+}
+.indonesia-comic-con-organizer {
+  font-weight: 700;
+}
+.indonesia-comic-con-organizer2 {
+  font-weight: 400;
+}
+.indonesia-comic-con-poster {
+  top: 0px;
+  left: 0px;
+  width: 400px;
+  height: 500px;
+  position: absolute;
+}
+.mommy-n-me {
+  top: 1883px;
+  left: 172px;
+  width: 1097px;
+  height: 440px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.mommy-n-me-more-info {
+  top: 216px;
+  left: 108px;
+  width: 155px;
+  height: 63px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.mommy-n-me-more-info-text {
+  top: 13px;
+  left: 30px;
+  color: rgba(217, 154, 62, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  border: 1px solid rgba(217, 154, 62, 1);
+  padding: 15px;
+  cursor: pointer;
+}
+.mommy-n-me-info {
+  left: 428px;
+  color: rgba(0, 0, 0, 1);
+  width: 669px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mommy-n-me-description {
+  top: 130.415771484375px;
+  left: 428px;
+  color: rgba(0, 0, 0, 1);
+  width: 595px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mommy-n-me-info2 {
+  top: 311px;
+  left: 428px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mommy-n-me-time {
+  font-weight: 700;
+}
+.mommy-n-me-time2 {
+  font-weight: 400;
+}
+.mommy-n-me-open {
+  font-weight: 700;
+}
+.mommy-n-me-open2 {
+  font-weight: 400;
+}
+.mommy-n-me-organizer {
+  font-weight: 700;
+}
+.mommy-n-me-organizer2 {
+  font-weight: 400;
+}
+.mommy-n-me-poster {
+  top: 0px;
+  left: 0px;
+  width: 400px;
+  height: 195px;
+  position: absolute;
+}
+.jakarta-x-beauty {
+  top: 1450px;
+  left: 172px;
+  width: 1097px;
+  height: 360px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.jakarta-x-beauty-more-info {
+  top: 286px;
+  left: 108px;
+  width: 155px;
+  height: 63px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.jakarta-x-beauty-more-info-text {
+  top: 13px;
+  left: 30px;
+  color: rgba(217, 154, 62, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  border: 1px solid rgba(217, 154, 62, 1);
+  padding: 15px;
+  cursor: pointer;
+}
+.jakarta-x-beauty-info {
+  left: 428px;
+  color: rgba(0, 0, 0, 1);
+  width: 669px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.jakarta-x-beauty-description {
+  top: 130.415771484375px;
+  left: 428px;
+  color: rgba(0, 0, 0, 1);
+  width: 595px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.jakarta-x-beauty-info2 {
+  top: 231px;
+  left: 428px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.jakarta-x-beauty-time {
+  font-weight: 700;
+}
+.jakarta-x-beauty-time2 {
+  font-weight: 400;
+}
+.jakarta-x-beauty-open {
+  font-weight: 700;
+}
+.jakarta-x-beauty-open2 {
+  font-weight: 400;
+}
+.jakarta-x-beauty-organizer {
+  font-weight: 700;
+}
+.jakarta-x-beauty-organizer2 {
+  font-weight: 400;
+}
+.jakarta-x-beauty-poster {
+  top: 0px;
+  left: 0px;
+  width: 400px;
+  height: 271px;
+  position: absolute;
+}
+.jipremium {
+  top: 893px;
+  left: 172px;
+  width: 1097px;
+  height: 484px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.jipremium-more-info {
+  top: 421px;
+  left: 123px;
+  width: 155px;
+  height: 63px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.jipremium-more-info-text {
+  top: 13px;
+  left: 30px;
+  color: rgba(217, 154, 62, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  border: 1px solid rgba(217, 154, 62, 1);
+  padding: 15px;
+  cursor: pointer;
+}
+.jipremium-info {
+  left: 428px;
+  color: rgba(0, 0, 0, 1);
+  width: 669px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.jipremium-description {
+  top: 130.415771484375px;
+  left: 428px;
+  color: rgba(0, 0, 0, 1);
+  width: 595px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.jipremium-poster {
+  top: 0px;
+  left: 0px;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+}
+.jipremium-info2 {
+  top: 231px;
+  left: 428px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.jipremium-time {
+  font-weight: 700;
+}
+.jipremium-time2 {
+  font-weight: 400;
+}
+.jipremium-open {
+  font-weight: 700;
+}
+.jipremium-open2 {
+  font-weight: 400;
+}
+.jipremium-organizer {
+  font-weight: 700;
+}
+.jipremium-organizer2 {
+  font-weight: 400;
+}
+.hospital {
+  top: 336px;
+  left: 172px;
+  width: 1097px;
+  height: 484px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.hospital-poster {
+  top: 0px;
+  left: 0px;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+}
+.hospital-more-info {
+  top: 421px;
+  left: 123px;
+  width: 155px;
+  height: 63px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.hospital-more-info-text {
+  top: 13px;
+  left: 30px;
+  color: rgba(217, 154, 62, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  border: 1px solid rgba(217, 154, 62, 1);
+  padding: 15px;
+  cursor: pointer;
+}
+.hospital-info {
+  left: 428px;
+  color: rgba(0, 0, 0, 1);
+  width: 669px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.hospital-description {
+  top: 132.415771484375px;
+  left: 428px;
+  color: rgba(0, 0, 0, 1);
+  width: 595px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.hospital-info2 {
+  top: 271px;
+  left: 428px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.hospital-time {
+  font-weight: 700;
+}
+.hospital-time2 {
+  font-weight: 400;
+}
+.hospital-open {
+  font-weight: 700;
+}
+.hospital-open2 {
+  font-weight: 400;
+}
+.hospital-organizer {
+  font-weight: 700;
+}
+.hospital-organizer2 {
+  font-weight: 400;
+}
+.events-text2 {
+  top: 200px;
+  left: 700px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 60px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.header {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 136px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(0, 0, 0, 0.8600000143051147);
+}
+.home-text2 {
+  top: 45px;
+  left: 46px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.events-text3 {
+  top: 45px;
+  left: 182px;
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+.price-list-text2 {
+  top: 44px;
+  left: 329px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.about-us-text2 {
+  top: 45px;
+  left: 1108px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.contact-us-text2 {
+  top: 45px;
+  left: 1272px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.jcc-logo-content {
+  top: 24.975616455078125px;
+  left: 510px;
+  width: 409px;
+  height: 87.0243911743164px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.jcc-logo-text {
+  top: 7.024383544921875px;
+  left: 99px;
+  color: rgba(217, 154, 62, 1);
+  width: 310px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Kufam;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.jcc-logo {
+  top: 0px;
+  left: 0px;
+  width: 99px;
+  height: 87px;
+  position: absolute;
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Paragraph {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Anek Telugu;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+@media only screen and (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-group2,
+  .footer-group3,
+  .footer-group4 {
+    margin-top: 20px;
+  }
+
+  .footer-group2,
+  .footer-group3 {
+    width: 100%;
+  }
+
+  .footer-group2 {
+    text-align: center;
+  }
+
+  .footer-group3 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer-group4 {
+    text-align: center;
+  }
+
+  .deep-and-extreme,
+  .indonesia-comic-con,
+  .mommy-n-me,
+  .jakarta-x-beauty,
+  .jipremium,
+  .hospital {
+    margin-bottom: 20px;
+  }
+}
+
+/* Add responsive styles for smartphones */
+@media only screen and (max-width: 480px) {
+  .events-page {
+    padding: 20px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer-group1 {
+    margin-bottom: 20px;
+  }
+
+  .footer-group2,
+  .footer-group3,
+  .footer-group4 {
+    margin-bottom: 10px;
+  }
+
+  .deep-and-extreme-info,
+  .indonesia-comic-con-info,
+  .mommy-n-me-info,
+  .jakarta-x-beauty-info,
+  .jipremium-info,
+  .hospital-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .deep-and-extreme-info2,
+  .indonesia-comic-con-info2,
+  .mommy-n-me-info2,
+  .jakarta-x-beauty-info2,
+  .jipremium-info2,
+  .hospital-info2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .deep-and-extreme-description,
+  .indonesia-comic-con-description,
+  .mommy-n-me-description,
+  .jakarta-x-beauty-description {
+    text-align: center;
+  }
+}

@@ -1,0 +1,804 @@
+.container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.events-page {
+  width: 100%;
+  height: 2725px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.footer {
+  top: 2450px;
+  left: 0px;
+  width: 100%;
+  height: 279px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(0, 0, 0, 0.8600000143051147);
+}
+.footer-group1 {
+  top: 20.17919921875px;
+  left: 50px;
+  width: 352px;
+  height: 235.82080078125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.footer-paragraph {
+  color: rgba(255, 255, 255, 1);
+  width: 352px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.footer-group2 {
+  top: 20.179244995117188px;
+  left: 519.95751953125px;
+  width: 135.6298828125px;
+  height: 199.16036987304688px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.footer-quick-links-text {
+  top: 0px;
+  left: 0px;
+  width: 135.6298828125px;
+  height: 31.58490562438965px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.quick-links {
+  color: rgba(255, 255, 255, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.footer-quick-links-content {
+  top: 39.481178283691406px;
+  left: 0.04248046875px;
+  width: 102.04244995117188px;
+  height: 159.6792449951172px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.home-text {
+  color: rgba(255, 255, 255, 1);
+  width: 59px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.about-us-text {
+  top: 100.01884460449219px;
+  left: 0.042449951171875px;
+  color: rgba(255, 255, 255, 1);
+  width: 91px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.events-text {
+  top: 33.339599609375px;
+  color: rgba(255, 255, 255, 1);
+  width: 61px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.price-list-text {
+  top: 66.6792221069336px;
+  left: 0.042449951171875px;
+  color: rgba(255, 255, 255, 1);
+  width: 98px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+.contact-us-text {
+  top: 133.3584747314453px;
+  left: 0.042449951171875px;
+  color: rgba(255, 255, 255, 1);
+  width: 102px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.footer-group3 {
+  top: 20.179244995117188px;
+  left: 807px;
+  width: 115.24959564208984px;
+  height: 165.8207550048828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.footer-follow-us-text {
+  top: 0px;
+  left: 0.30902099609375px;
+  width: 114.9405746459961px;
+  height: 31.58490562438965px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.follow-us {
+  color: rgba(255, 255, 255, 1);
+  width: 115px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.footer-follow-us-content {
+  top: 39.481178283691406px;
+  left: 0px;
+  width: 102.297119140625px;
+  height: 126.3396224975586px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.instagram-text {
+  color: rgba(255, 255, 255, 1);
+  width: 102px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.youtube-text {
+  top: 100.01884460449219px;
+  color: rgba(255, 255, 255, 1);
+  width: 85px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.facebook-text {
+  top: 33.339599609375px;
+  color: rgba(255, 255, 255, 1);
+  width: 95px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.linkedin-text {
+  top: 66.6792221069336px;
+  color: rgba(255, 255, 255, 1);
+  width: 84px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.footer-group4 {
+  top: 20.179244995117188px;
+  left: 1094.660400390625px;
+  width: 310.6791687011719px;
+  height: 144.76414489746094px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.footer-location-text {
+  color: rgba(255, 255, 255, 1);
+  width: 102px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.footer-location-content {
+  top: 39.481178283691406px;
+  left: 0.339599609375px;
+  width: 310.3395690917969px;
+  height: 105.28302001953125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.location-description {
+  color: rgba(255, 255, 255, 1);
+  width: 310px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.copyright {
+  top: 237px;
+  left: 673px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wedding-package {
+  top: 1394px;
+  left: 250px;
+  width: 1016px;
+  height: 927.2720336914062px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.wedding-package-text {
+  top: 600px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 60px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wedding-package-info {
+  top: 765px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wedding-package-short-description {
+  top: 672px;
+  color: rgba(0, 0, 0, 1);
+  width: 430px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wedding-package-description {
+  top: 609px;
+  left: 508px;
+  width: 502px;
+  height: 231px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.wedding-package-long-description {
+  color: rgba(0, 0, 0, 1);
+  width: 502px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wedding-package-enquire {
+  top: 874px;
+  left: 0px;
+  width: 230px;
+  height: 53.27206039428711px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.wedding-package-enquire-text {
+  color: rgba(217, 154, 62, 1);
+  height: auto;
+  position: absolute;
+  font-size: 27.058822631835938px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  border: 1px solid rgba(217, 154, 62, 1);
+  padding: 15px;
+  cursor: pointer;
+}
+.wedding-hall-image {
+  top: 0px;
+  left: 0px;
+  width: 1016px;
+  height: 574px;
+  position: absolute;
+}
+.meeting-package {
+  top: 325px;
+  left: 250px;
+  width: 1007px;
+  height: 988.2720336914062px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.conference-room-image {
+  top: 0px;
+  left: 5px;
+  width: 1000px;
+  height: 562px;
+  position: absolute;
+}
+.meeting-package-text {
+  top: 602px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 60px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.meeting-package-info {
+  top: 820px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.meeting-package-short-description {
+  top: 674px;
+  left: 2px;
+  color: rgba(0, 0, 0, 1);
+  width: 430px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.meeting-package-description {
+  top: 623px;
+  left: 505px;
+  width: 502px;
+  height: 320px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.meeting-package-long-description {
+  color: rgba(0, 0, 0, 1);
+  width: 502px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.meeting-package-enquire {
+  top: 935px;
+  left: 0px;
+  width: 230px;
+  height: 53.27206039428711px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.meeting-package-enquire-text {
+  color: rgba(217, 154, 62, 1);
+  height: auto;
+  position: absolute;
+  font-size: 27.058822631835938px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  border: 1px solid rgba(217, 154, 62, 1);
+  padding: 15px;
+  cursor: pointer;
+}
+.events-text2 {
+  top: 200px;
+  left: 700px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 60px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.header {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 136px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(0, 0, 0, 0.8600000143051147);
+}
+.home-text2 {
+  top: 45px;
+  left: 46px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.events-text3 {
+  top: 45px;
+  left: 182px;
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.price-list-text2 {
+  top: 44px;
+  left: 329px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+.about-us-text2 {
+  top: 45px;
+  left: 1108px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.contact-us-text2 {
+  top: 45px;
+  left: 1272px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.jcc-logo-content {
+  top: 24.975616455078125px;
+  left: 510px;
+  width: 409px;
+  height: 87.0243911743164px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.jcc-logo-text {
+  top: 7.024383544921875px;
+  left: 99px;
+  color: rgba(217, 154, 62, 1);
+  width: 310px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Kufam;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.jcc-logo {
+  top: 0px;
+  left: 0px;
+  width: 99px;
+  height: 87px;
+  position: absolute;
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Paragraph {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Anek Telugu;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .footer-group1 {
+    margin-bottom: 20px;
+  }
+
+  .footer-group2,
+  .footer-group3,
+  .footer-group4 {
+    margin-bottom: 10px;
+  }
+
+  .footer-quick-links-content {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-follow-us-content {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-location-content {
+    text-align: center;
+  }
+
+  .wedding-package {
+    margin-bottom: 20px;
+  }
+
+  .meeting-package {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,952 @@
+.container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.events-page {
+  width: 100%;
+  height: 2355px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.footer {
+  top: 2080px;
+  left: 0px;
+  width: 100%;
+  height: 279px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(0, 0, 0, 0.8600000143051147);
+}
+.footer-group1 {
+  top: 20.17919921875px;
+  left: 50px;
+  width: 352px;
+  height: 235.82080078125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.footer-paragraph {
+  color: rgba(255, 255, 255, 1);
+  width: 352px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.footer-group2 {
+  top: 20.179244995117188px;
+  left: 519.95751953125px;
+  width: 135.6298828125px;
+  height: 199.16036987304688px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.footer-quick-links-text {
+  top: 0px;
+  left: 0px;
+  width: 135.6298828125px;
+  height: 31.58490562438965px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.quick-links {
+  color: rgba(255, 255, 255, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.footer-quick-links-content {
+  top: 39.481178283691406px;
+  left: 0.04248046875px;
+  width: 102.04244995117188px;
+  height: 159.6792449951172px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.home-text {
+  color: rgba(255, 255, 255, 1);
+  width: 59px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.about-us-text {
+  top: 100.01884460449219px;
+  left: 0.042449951171875px;
+  color: rgba(255, 255, 255, 1);
+  width: 91px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+.events-text {
+  top: 33.339599609375px;
+  color: rgba(255, 255, 255, 1);
+  width: 61px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.price-list-text {
+  top: 66.6792221069336px;
+  left: 0.042449951171875px;
+  color: rgba(255, 255, 255, 1);
+  width: 98px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.contact-us-text {
+  top: 133.3584747314453px;
+  left: 0.042449951171875px;
+  color: rgba(255, 255, 255, 1);
+  width: 102px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.footer-group3 {
+  top: 20.179244995117188px;
+  left: 807px;
+  width: 115.24959564208984px;
+  height: 165.8207550048828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.footer-follow-us-text {
+  top: 0px;
+  left: 0.30902099609375px;
+  width: 114.9405746459961px;
+  height: 31.58490562438965px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.follow-us {
+  color: rgba(255, 255, 255, 1);
+  width: 115px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.footer-follow-us-content {
+  top: 39.481178283691406px;
+  left: 0px;
+  width: 102.297119140625px;
+  height: 126.3396224975586px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.instagram-text {
+  color: rgba(255, 255, 255, 1);
+  width: 102px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.youtube-text {
+  top: 100.01884460449219px;
+  color: rgba(255, 255, 255, 1);
+  width: 85px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.facebook-text {
+  top: 33.339599609375px;
+  color: rgba(255, 255, 255, 1);
+  width: 95px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.linkedin-text {
+  top: 66.6792221069336px;
+  color: rgba(255, 255, 255, 1);
+  width: 84px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.footer-group4 {
+  top: 20.179244995117188px;
+  left: 1094.660400390625px;
+  width: 310.6791687011719px;
+  height: 144.76414489746094px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.footer-location-text {
+  color: rgba(255, 255, 255, 1);
+  width: 102px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.footer-location-content {
+  top: 39.481178283691406px;
+  left: 0.339599609375px;
+  width: 310.3395690917969px;
+  height: 105.28302001953125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.location-description {
+  color: rgba(255, 255, 255, 1);
+  width: 310px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.copyright {
+  top: 237px;
+  left: 673px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Anek Telugu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.jcc-contact-info {
+  top: 1170px;
+  left: 758px;
+  width: 657px;
+  height: 526px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.outdoor-convention {
+  top: 0px;
+  left: 2px;
+  width: 655px;
+  height: 327px;
+  position: absolute;
+}
+.jcc-title {
+  top: 334px;
+  left: 15px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  margin-top: 25px;
+
+}
+.jcc-phone {
+  top: 382px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.jcc-fax {
+  top: 418px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.jcc-website {
+  top: 490px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.jcc-email {
+  top: 454px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.preferred-contact {
+  top: 1771px;
+  left: 213px;
+  width: 308px;
+  height: 141px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.preferred-contact-text {
+  left: 1px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.phone-box {
+  top: 54px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+.email-box {
+  top: 102px;
+  left: 1px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+input[type="text"] {
+  width: 100%;
+  margin-top: 50px;
+  height: 46px;
+  font-size: 30px;
+  font-family: Alumni Sans;
+}
+.preferred-contact-radio {
+  margin-top: 75px;
+  margin-left: 10px;
+  font-family: Alumni Sans;
+  font-size: 25px;
+  transform: scale(1.5);
+}
+.preferred-contact-radio label {
+  display: block;
+  margin-bottom: 10px;
+  
+}
+.preferred-contact-radio[type="radio"] {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+textarea {
+  width: 100%;
+  margin-top: 50px;
+  height: 217px;
+  font-size: 30px;
+  font-family: Alumni Sans;
+}
+.contact-info {
+  margin-top: 340px;
+  width: 357px;
+  height: 217px;
+  border: 1px solid black;
+  border-width: 1px;
+  border-radius: 4px;
+}
+.message-jcc {
+  top: 1480px;
+  left: 213px;
+  width: 417px;
+  height: 265px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.message-jcc-text {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.message-box {
+  top: 48px;
+  left: 2px;
+  width: 415px;
+  height: 217px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+.phone-number {
+  top: 1360px;
+  left: 211px;
+  width: 417px;
+  height: 94px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.phone-number-text {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.phone-number-box {
+  top: 48px;
+  left: 2px;
+  width: 415px;
+  height: 46px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+.email-address {
+  top: 1240px;
+  left: 211px;
+  width: 417px;
+  height: 94px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.email-address-text {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.email-address-box {
+  top: 48px;
+  left: 2px;
+  width: 415px;
+  height: 46px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+.name {
+  top: 1120px;
+  left: 211px;
+  width: 417px;
+  height: 94px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.name-text {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.name-box {
+  top: 48px;
+  left: 2px;
+  width: 415px;
+  height: 46px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+.header {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 136px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(0, 0, 0, 0.8600000143051147);
+}
+.home-text2 {
+  top: 45px;
+  left: 46px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.events-text3 {
+  top: 45px;
+  left: 182px;
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.price-list-text2 {
+  top: 44px;
+  left: 329px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.about-us-text2 {
+  top: 45px;
+  left: 1108px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+.contact-us-text2 {
+  top: 45px;
+  left: 1272px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.jcc-logo-content {
+  top: 24.975616455078125px;
+  left: 510px;
+  width: 409px;
+  height: 87.0243911743164px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.jcc-logo-text {
+  top: 7.024383544921875px;
+  left: 99px;
+  color: rgba(217, 154, 62, 1);
+  width: 310px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Kufam;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.jcc-logo {
+  top: 0px;
+  left: 0px;
+  width: 99px;
+  height: 87px;
+  position: absolute;
+}
+.events-text2 {
+  top: 200px;
+  left: 660px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 60px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.jcc-auditorium {
+  top: 296px;
+  left: 0px;
+  width: 100%;
+  height: 553px;
+  position: absolute;
+}
+.contact-us-description {
+  top: 844px;
+  left: 211px;
+  color: rgba(0, 0, 0, 1);
+  width: 1136px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alumni Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+button{
+  margin-top: 1960px;
+  margin-left: 213px;
+  width: 131px;
+  height: 63px;
+  background: #FFFFFF;
+  font-family: Alumni Sans;
+  font-size: 32px;
+  color: rgba(217, 154, 62, 1);
+  outline: none;
+  border: 1px solid rgba(217, 154, 62, 1);
+  cursor: pointer;
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Paragraph {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Anek Telugu;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+@media (max-width: 768px) {
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer-paragraph p {
+    font-size: 14px;
+  }
+
+  .footer {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer-group2,
+  .footer-group3,
+  .footer-group4 {
+    margin-top: 10px;
+  }
+
+  .footer-quick-links-content,
+  .footer-follow-us-content {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-location-content {
+    text-align: center;
+  }
+
+  .jcc-contact-info {
+    text-align: center;
+  }
+
+  .preferred-contact-radio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .phone-number,
+  .email-address,
+  .name,
+  .message-jcc {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .jcc-logo-content {
+    text-align: center;
+  }
+
+  .contact-us-description {
+    padding: 20px;
+    text-align: center;
+  }
+
+  #submit {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
